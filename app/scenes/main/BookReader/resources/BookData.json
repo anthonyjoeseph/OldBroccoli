@@ -1,0 +1,181 @@
+{
+  "aspectRatio" : 1.64207980652963,
+  "baseURI" : "http://readbroccoli.com:3000/littleFrog/",
+  "pages" : [
+    {
+      "imageURI" : "page1.jpg",
+      "animations" : [
+        {
+          "rect" :{
+            "x" : 120,
+            "y" : 120,
+            "width" : 70,
+            "height" : 60
+          },
+          "resource" : "spongebob"
+        },
+        {
+          "rect" :{
+            "x" : 320,
+            "y" : 220,
+            "width" : 170,
+            "height" : 60
+          },
+          "resource" : "bored_animation"
+        }
+      ]
+    },
+    {
+      "imageURI" : "page2.jpg"
+    },
+    {
+      "imageURI" : "page3.jpg",
+      "questionIcons" : [
+        {
+          "icon" : {
+            "rect" :{
+              "x" : 0.5,
+              "y" : 0.5,
+              "width" : 0.15,
+              "height" : 0.35
+            },
+            "resource" : "frog_outline"
+          },
+          "questions" : [
+            {
+              "question" : "What is my favorite food?",
+              "options" : [
+                "Bananas",
+                "Razors",
+                "Fried Chicken",
+                "Pencil Shavings"
+              ],
+              "correctIndex" : 2
+            },
+            {
+              "question" : "What is my favorite food?",
+              "options" : [
+                "Bananas",
+                "Razors",
+                "Fried Chicken",
+                "Pencil Shavings"
+              ],
+              "correctIndex" : 2
+            }
+          ]
+        },
+        {
+          "icon" : {
+            "rect" :{
+              "x" : 0.6,
+              "y" : 0.6,
+              "width" : 0.2,
+              "height" : 0.1
+            },
+            "resource" : "frog_outline"
+          },
+          "questions" : [
+            {
+              "question" : "Whddat is my favorite food?",
+              "options" : [
+                "Banddanas",
+                "Razors",
+                "Fridded Chicken",
+                "Pencil Shavings"
+              ],
+              "correctIndex" : 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "imageURI" : "page4.jpg"
+    },
+    {
+      "imageURI" : "page5.jpg"
+    },
+    {
+      "imageURI" : "page6.jpg",
+      "questionIcons" : [
+        {
+          "icon" : {
+            "rect" :{
+              "x" : 240,
+              "y" : 180,
+              "width" : 60,
+              "height" : 60
+            },
+            "resource" : "spongebob"
+          },
+          "questions" : [
+            {
+              "question" : "What is my favorite clothing?",
+              "options" : [
+                "Underwear",
+                "Socks",
+                "Shoes",
+                "T-shirt",
+                "Pencil Shavings"
+              ],
+              "correctIndex" : 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "imageURI" : "page7.jpg"
+    },
+    {
+      "imageURI" : "page8.jpg"
+    },
+    {
+      "imageURI" : "page9.jpg",
+      "questionIcons" : [
+        {
+          "icon" : {
+            "rect" :{
+              "x" : 0.29,
+              "y" : 0.26,
+              "width" : 0.335,
+              "height" : 0.29
+            },
+            "resource" : "frog_outline"
+          },
+          "questions" : [
+            {
+              "question" : "What is my favorite clothing?",
+              "options" : [
+                "Underwear",
+                "Socks",
+                "Shoes",
+                "T-shirt",
+                "Pencil Shavings"
+              ],
+              "correctIndex" : 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "imageURI" : "page10.jpg"
+    },
+    {
+      "imageURI" : "page11.jpg"
+    },
+    {
+      "imageURI" : "page12.jpg"
+    },
+    {
+      "imageURI" : "page13.jpg"
+    },
+    {
+      "imageURI" : "page14.jpg"
+    },
+    {
+      "imageURI" : "page15.jpg"
+    }
+  ]
+}
