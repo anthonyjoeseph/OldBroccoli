@@ -56,7 +56,16 @@ class HomePage extends Component {
         />
         <BookPicker
           authHeaders={this.props.navigation.state.params.authHeaders}
-          onPressBook={function(data){this.props.navigation.navigate('BookReader', {data:data, authHeaders:this.props.navigation.state.params.authHeaders})}.bind(this)}/>
+          onPressBook={
+            function(data){
+              this.props.navigation.navigate(
+                'BookReader',
+                {
+                  data:data,
+                  authHeaders:this.props.navigation.state.params.authHeaders
+                }
+              )
+            }.bind(this)}/>
         {
           this.state.showUserPanel ?
             <UserPanel

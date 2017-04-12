@@ -50,7 +50,7 @@ class BookReader extends Component {
     });
 
     this.state = {
-      authHeaders: this.props.authHeaders,
+      authHeaders: this.props.navigation.state.params.authHeaders,
       bookID: bookData.id,
       baseURI: bookData.baseURI,
       numPages: bookData.numPages,
