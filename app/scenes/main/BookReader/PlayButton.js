@@ -15,7 +15,7 @@ class PlayButton extends Component {
   constructor(props){
     super(props);
 
-    this.music = new Sound("boomemulation.wav", Sound.MAIN_BUNDLE, (error) => {
+    this.music = new Sound("http://readbroccoli.com:3000/littleFrog/sfx/p1-click-anywhere.mp3", null, this.props.authHeaders, (error) => {
       if (error) {
         console.log('failed to load the sound', error);
       } else { // loaded successfully

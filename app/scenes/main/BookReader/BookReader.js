@@ -131,6 +131,7 @@ class BookReader extends Component {
           }
         />
         <PlayButton style={styles.playButton}
+          authHeaders={this.state.authHeaders}
           language={this.state.currentLanguage}
           character={this.state.currentCharacter}
         />
